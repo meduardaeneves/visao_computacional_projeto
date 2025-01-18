@@ -24,6 +24,9 @@ Para solucionar o problema em questão, este projeto optou por fragmentar a o de
 3. Modelagem do Modelo
 ## Carregamento dos Dados
 Depois de realizado o carregamento dos dados, observou-se que as 27000 imagens eram separadas em 10 classes:
+
+![Distribuição das Classes](distribuicao_classes.png)
+
   - Classe: Pasture; Quantidade de Imagens: 2000
   - Classe: Residential; Quantidade de Imagens: 3000
   - Classe: Industrial; Quantidade de Imagens: 2500
@@ -97,7 +100,7 @@ A matriz de confusão apresenta True Label X Predicted Label.
 - O projeto foi importante principalmente para aprofundar o conhecimento no quesito de classificação de imagens e implementação de modelos manualmente, desenvolvendo mais a fundo o conhecimento de implementação de camadas e de hiperparâmetros. 
 
 
-#Referências
+# Referências
 - Adicionar um arquivo a um repositório em GitHGub: [Link](https://docs.github.com/pt/repositories/working-with-files/managing-files/adding-a-file-to-a-repository)
 - Como normalizar conjunto de dados de imagem usando PyTorch [Link](https://saturncloud.io/blog/how-to-normalize-image-dataset-using-pytorch/)
 - Computing Mean & STD in Image Dataset [Link](https://kozodoi.me/blog/20210308/compute-image-stats)
