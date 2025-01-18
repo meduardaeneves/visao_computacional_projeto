@@ -90,6 +90,17 @@ A matriz de confusão apresenta True Label X Predicted Label.
 
 ## Visualização de previsões corretas e incorretas nos dados de teste
 
+- Observa-se que as imagens que foram classificadas incorretamente ou não possuiam uma boa delimitação na imagem, ou apresentavam algumas características que pareciam demais com algumas outras, gerando assim a confusão dentre elas.
+- Nas imagens, a letra `P` indica a label prevista, enquanto a letra `T` a label verdadeira
+  
+- Imagens Classificadas Corretamente:
+  
+![Matriz de Confusão](imagens_corretas.png)
+
+- Imagens Classificadas de forma equivocada:
+  
+![Matriz de Confusão](imagens_erradas.png)
+
 # Conclusão
 - Pode-se concluir que o projeto apresentou bons resultados para a classificação das imagens, com uma acurácia acima de `70%`
 - Para este modelo, pode-se concluir que a diferença inicial de quantidade de amostras por classe não apresentou interferência na classificação, isto pois  a classe com menor quantidade de amostras, classe 5 (2000 amostras), apresentou bons resultados quando olhamos a matriz de confusão. 
