@@ -67,7 +67,7 @@ Uma diferença do TOP-1 para o TOP-5 é que, já nas primeiras épocas o TOP-5 t
 - Como foi comentado anteriormente, com a obtenção dos gráficos de perda e acurácia ao longo do tempo, a acurácia top-5, se levada em consideração, apresenta uma acurácia próxima de 100%, significando que, na maioria dos casos a classe verdadeira, no momento da classificação, estará entre as 5 com maiores probabilidades de acontecer.
 - Apesar disso, se levada em consideração somente TOP-1 o projeto apresentou bons resultados de classificação
 
-## Matriz de Comparativo de Métricas
+- Matriz de Comparativo de Métricas
 | Métrica         | TOP-1 | TOP-5 |
 |-----------------|-------| 595   |
 | Acurácia Total  | 0.73  | 0.99  | 
