@@ -2,7 +2,7 @@
 - Aluna: Maria Eduarda Esteves Neves
 
 # Links de acesso:
-- [Link de acesso para o Google Colab](XX)
+- [Link de acesso para o Google Colab](https://colab.research.google.com/drive/1sbTFWKX99DELE1AqoaeNGn7PLoekt1GX?usp=sharing)
 
 # Descrição do Problema
 
