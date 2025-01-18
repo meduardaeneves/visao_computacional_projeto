@@ -55,6 +55,36 @@ O pré-processamento dos dados foi dividido em algumas etapas:
   - Treinamento do modelo
 
 # Análise Crítica dos Resultados
+## Curvas de Perda X Acurácia durante o Treinamento e Validação
+Através das curvas é possível concluir que os valores de acurácia tendem a crescer bem sem aparesentar overfitting. 
+
+Uma diferença do TOP-1 para o TOP-5 é que, já nas primeiras épocas o TOP-5 tem um pico de acurária muito elevado já chegando em valores satisfatórios, sendo assim, se essa fosse a principal forma de análise não seriam necessárias tantas épocas para atingir um bom resultado
+
+![Curvas de perda e acurácia](curvas_perda_acuracia.png)
+
+## Acurácia, Recall e Precision em Top-1 e Top-5
+
+- Como foi comentado anteriormente, com a obtenção dos gráficos de perda e acurácia ao longo do tempo, a acurácia top-5, se levada em consideração, apresenta uma acurácia próxima de 100%, significando que, na maioria dos casos a classe verdadeira, no momento da classificação, estará entre as 5 com maiores probabilidades de acontecer.
+- Apesar disso, se levada em consideração somente TOP-1 o projeto apresentou bons resultados de classificação
+
+## Matriz de Comparativo de Métricas
+| Métrica         | TOP-1 | TOP-5 |
+|-----------------|-------| 595   |
+| Acurácia Total  | 0.73  | 0.99  | 
+| Precision Total | 0.69  | 0.99  |
+| Recall Total    | 0.69  | 0.99  |
+
+## Matriz de Confusão para Análise dos resultados
+A matriz de confusão será apresentada somente para o TOP-1, analisando somente aqueles casos em que o resultado que teve maior probabilidade de previsão foi equivalente ao valor TARGET real
+
+![Matriz de Confusão](matriz_confusão.png)
+
+A matriz de confusão apresenta True Label X Predicted Label.
+  - Através dela é possível ver como se deu a distribuição das classificações previstas melo modelo de acordo com as diferentes classes
+  - É possível ver que a classe que apresentou mais dificuldade para ser classificada foi a classe 3, sendo majoritariamente confundida com as classes 7 e 8
+  - A segunda classe que apresentou uma maior dificuldade para classificação foi a classe 2, confundida majoritariamente com a classe 6 que também obteve resultados que a confundiam com a classe 2
+
+## Visualização de previsões corretas e incorretas nos dados de teste
 
 # Conclusão
 - Pode-se concluir que o projeto apresentou bons resultados para a classificação das imagens, com uma acurácia acima de `70%`
