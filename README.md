@@ -68,6 +68,7 @@ Uma diferença do TOP-1 para o TOP-5 é que, já nas primeiras épocas o TOP-5 t
 - Apesar disso, se levada em consideração somente TOP-1 o projeto apresentou bons resultados de classificação
 
 - Matriz de Comparativo de Métricas
+
 | Métrica         | TOP-1 | TOP-5 |
 |-----------------|-------| 595   |
 | Acurácia Total  | 0.73  | 0.99  | 
