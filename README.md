@@ -34,7 +34,9 @@ Depois de realizado o carregamento dos dados, observou-se que as 27000 imagens e
   - Classe: River; Quantidade de Imagens: 2500
   - Classe: Forest; Quantidade de Imagens: 3000
   - Classe: AnnualCrop; Quantidade de Imagens: 3000
+
 Abaixo está apresentado um mosaíco com 4 exemplos para cada uma das classes.
+
 ![Mosaico Com exemplo das diferentes imagens](mosaico_final.png)
 
 ## Pré-Processamento dos dados:
