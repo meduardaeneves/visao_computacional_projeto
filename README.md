@@ -15,3 +15,5 @@
   - Tamanho do conjunto de dados: 27.000 imagens:
     - Treinamento: Cerca de 19.000 imagens;
     - Validação/Teste: Cerca de 8.000 imagens.
+# Descrição da Técnica escolhida para a Solução do problema
+![Mosaico Com exemplo das diferentes imagens](mosaico_final.png)
